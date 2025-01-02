@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css or styles.css */
+
+/* Define the slide-down animation */
+@keyframes slide-down {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Custom class for the slide-down animation */
+.animate-slide-down {
+  animation: slide-down 0.3s ease-out;
+};
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Loop animation for horizontal scrolling */
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}

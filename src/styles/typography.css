@@ -1,0 +1,25 @@
+/* Typography */
+@font-face {
+  font-family: 'SFT Schrifted Sans Trial';
+  src: url('https://fonts.cdnfonts.com/css/sft-schrifted-sans-trial') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Code Bold';
+  src: url('https://fonts.cdnfonts.com/css/code-bold') format('woff2');
+  font-display: swap;
+}
+
+:root {
+  /* Colors */
+  --primary: #dd1f26;
+  --background: #e6e7e2;
+  --text: #000000;
+  --white: #ffffff;
+  --gold: #ffd700;
+  
+  /* Typography */
+  --font-primary: 'SFT Schrifted Sans Trial', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Code Bold', 'Arial Black', sans-serif;
+}
