@@ -23,7 +23,7 @@ export default function Header() {
 
   // Handle escape key
   useEffect(() => {
-    const handleEscape = (e) => {
+    const handleEscape = (e: { key: string; }) => {
       if (e.key === 'Escape') {
         setIsMenuOpen(false);
       }
