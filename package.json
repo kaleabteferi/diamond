@@ -2,15 +2,13 @@
   "name": "dimond-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kaleabteferi.github.io/diamond",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",

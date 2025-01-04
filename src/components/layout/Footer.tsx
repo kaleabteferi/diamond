@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <Diamond className="h-10 w-10 text-red-600" />
-              <span className="ml-3 text-2xl font-bold text-white">Dimond™</span>
+              <span className="ml-3 text-2xl font-bold text-white">Diamond™</span>
             </div>
             <p className="text-sm leading-relaxed text-gray-400">
               Elevating Your Experience with Premium TVs and Speakers Across Ethiopia.
